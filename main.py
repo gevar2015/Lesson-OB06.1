@@ -1,3 +1,4 @@
+import random
 class Hero:
     def __init__(self, name):
         """Инициализирует героя с именем, здоровьем и силой удара."""
@@ -47,3 +48,7 @@ class Game:
             if not self.player.is_alive():
                 print(f"{self.player.name} повержен! {self.computer.name} победил!")
                 break
+if __name__ == "__main__":
+    player_name = input("Введите имя вашего героя: ")
+    game = Game(player_name)
+    game.start()
