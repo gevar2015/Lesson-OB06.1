@@ -49,6 +49,8 @@ class Game:
                 print(f"{self.player.name} повержен! {self.computer.name} победил!")
                 break
 if __name__ == "__main__":
+    print("Добро пожаловать в игру 'Битва героев'!")
     player_name = input("Введите имя вашего героя: ")
     game = Game(player_name)
     game.start()
+
