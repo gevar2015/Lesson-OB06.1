@@ -17,3 +17,4 @@ class Hero:
 
     def __str__(self):
         return f"{self.name}: здоровье={self.health}, сила удара={self.attack_power}"
+
